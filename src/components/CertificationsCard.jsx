@@ -3,7 +3,6 @@ import SpotlightCard from './SpotlightCard'
 import { FiAward, FiX, FiImage, FiExternalLink } from 'react-icons/fi'
 import { motion, AnimatePresence } from 'framer-motion'
 import problemSolvingImg from '../assets/problem_solving_hackerrank.jpg'
-import softwareEngineerImg from '../assets/software_engineer certificate hackerrank.png'
 import dsaImg from '../assets/Data Structure and Algorithms using Java (1)_page-0001.jpg'
 
 const CertificationsCard = () => {
@@ -13,7 +12,7 @@ const CertificationsCard = () => {
         { name: "Problem Solving (Intermediate) - HackerRank", image: problemSolvingImg },
         { name: "Data Structure and Algorithms Using Java - NPTEL", image: dsaImg },
         { name: "Java Full Stack with AI - DataValley", image: null },
-        { name: "Software Engineer - HackerRank", image: softwareEngineerImg }
+        
     ];
 
     return (

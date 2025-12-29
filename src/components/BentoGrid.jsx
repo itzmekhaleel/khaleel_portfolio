@@ -1,7 +1,6 @@
 import React from 'react'
 import ProfileCard from './ProfileCard'
 import StackCard from './StackCard'
-import ResearchCard from './ResearchCard'
 import ExperienceCard from './ExperienceCard'
 import ProjectsCard from './ProjectsCard'
 import ConnectCard from './ConnectCard'
@@ -17,15 +16,15 @@ const BentoGrid = () => {
             {/* Row 1 Right: Stack */}
             <StackCard />
 
-            {/* Row 2 Right: Research */}
-            <ResearchCard />
-
-            {/* Row 3: Experience & Projects */}
-            <ExperienceCard />
-            <ProjectsCard />
-
-            {/* Row 4: Education & Certifications */}
+            {/* Row 2 Right: Education */}
             <EducationCard />
+
+
+            {/* Row 3 & 4 Left: Experience */}
+            <ExperienceCard />
+
+            {/* Row 3 & 4 Right: Projects & Certifications */}
+            <ProjectsCard />
             <CertificationsCard />
 
             {/* Row 5: Connect */}

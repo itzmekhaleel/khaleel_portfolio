@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import SpotlightCard from './SpotlightCard'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaJava, FaPython, FaReact, FaGitAlt, FaCode, FaLaptopCode, FaServer, FaTerminal } from 'react-icons/fa'
-import { SiSpringboot, SiMysql, SiJavascript, SiHtml5, SiCss3, SiMongodb, SiPostman } from 'react-icons/si'
-import { FiX, FiGrid, FiLayers, FiCpu, FiDatabase } from 'react-icons/fi'
+import { FaJava, FaPython, FaReact, FaGitAlt, FaCode, FaLaptopCode, FaServer, FaTerminal, FaDatabase, FaExchangeAlt } from 'react-icons/fa'
+import { SiSpringboot, SiMysql, SiJavascript, SiHtml5, SiCss3, SiMongodb, SiPostman, SiApachekafka, SiSpring, SiIntellijidea, SiEclipseide } from 'react-icons/si'
+import { FiX, FiGrid, FiLayers, FiCpu, FiDatabase, FiSmartphone } from 'react-icons/fi'
 
 const StackCard = () => {
     const [showFullStack, setShowFullStack] = useState(false);
@@ -12,10 +12,10 @@ const StackCard = () => {
     const marqueeIcons = [
         { Icon: FaJava, name: "Java" },
         { Icon: SiSpringboot, name: "Spring Boot" },
+        { Icon: SiApachekafka, name: "Kafka" },
         { Icon: FaReact, name: "ReactJS" },
         { Icon: SiMysql, name: "MySQL" },
         { Icon: FaPython, name: "Python" },
-        { Icon: SiJavascript, name: "JS" },
         { Icon: FaGitAlt, name: "Git" },
         { Icon: SiMongodb, name: "MongoDB" },
     ];
@@ -34,7 +34,16 @@ const StackCard = () => {
             skills: [
                 { Icon: FaServer, name: "Core Java" },
                 { Icon: SiSpringboot, name: "Spring Boot" },
+                { Icon: SiSpring, name: "Spring" },
                 { Icon: FaCode, name: "REST APIs" },
+                { Icon: FiLayers, name: "Spring Data JPA" },
+            ]
+        },
+        {
+            title: "Messaging",
+            skills: [
+                { Icon: SiApachekafka, name: "Apache Kafka" },
+                { Icon: FaExchangeAlt, name: "Message Queuing" },
             ]
         },
         {
@@ -51,16 +60,18 @@ const StackCard = () => {
             skills: [
                 { Icon: SiMysql, name: "MySQL" },
                 { Icon: SiMongodb, name: "MongoDB" },
+                { Icon: FiDatabase, name: "H2 (SQL)" },
             ]
         },
         {
             title: "Dev Tools",
             skills: [
                 { Icon: FaGitAlt, name: "Git" },
+                { Icon: FaLaptopCode, name: "Maven" },
                 { Icon: SiPostman, name: "Postman" },
                 { Icon: FaLaptopCode, name: "VS Code" },
-                { Icon: FaTerminal, name: "Eclipse" },
-                { Icon: FaCode, name: "IntelliJ" },
+                { Icon: SiEclipseide, name: "Eclipse" },
+                { Icon: SiIntellijidea, name: "IntelliJ" },
             ]
         },
         {
@@ -69,6 +80,8 @@ const StackCard = () => {
                 { Icon: FiLayers, name: "OOPs" },
                 { Icon: FiCpu, name: "DSA" },
                 { Icon: FiDatabase, name: "DBMS" },
+                { Icon: FiLayers, name: "Microservices" },
+                { Icon: FaExchangeAlt, name: "Event-Driven" },
             ]
         }
     ];
