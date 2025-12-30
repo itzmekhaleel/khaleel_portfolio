@@ -65,11 +65,11 @@ const ProfileCard = () => {
             <div style={{ marginTop: 'auto' }}>
                 <p style={{ marginBottom: '25px', maxWidth: '100%', fontSize: '0.95rem', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
                     I am a motivated Computer Science and Engineering student with strong foundations in Data Structures and
-Algorithms, OOPs, and backend development using Java, Spring Boot, and MySQL. Hands-on experience building RESTful services and event-driven systems. Seeking an entry-level software engineering role to contribute
-to scalable, high-impact applications while continuously learning and growing.
+                    Algorithms, OOPs, and backend development using Java, Spring Boot, and MySQL. Hands-on experience building RESTful services and event-driven systems. Seeking an entry-level software engineering role to contribute
+                    to scalable, high-impact applications while continuously learning and growing.
                 </p>
                 <div style={{ display: 'flex', gap: '12px' }}>
-                    <a href="https://drive.google.com/file/d/1HXOlOm1eBneoOKXqlL8BQByz3OkbhqKF/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{
+                    <a href="https://drive.google.com/file/d/1PLuj_m7JfIb1ANdNw9ihAn__kTw32CP5/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{
                         padding: '10px 20px',
                         background: 'var(--accent-color)',
                         color: 'var(--bg-color)',
