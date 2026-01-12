@@ -11,8 +11,6 @@ const CertificationsCard = () => {
     const certifications = [
         { name: "Problem Solving (Intermediate) - HackerRank", image: problemSolvingImg },
         { name: "Data Structure and Algorithms Using Java - NPTEL", image: dsaImg },
-        { name: "Java Full Stack with AI - DataValley", image: null },
-        
     ];
 
     return (
