@@ -69,7 +69,7 @@ const ProfileCard = () => {
                     to scalable, high-impact applications while continuously learning and growing.
                 </p>
                 <div style={{ display: 'flex', gap: '12px' }}>
-                    <a href="https://drive.google.com/file/d/1PLuj_m7JfIb1ANdNw9ihAn__kTw32CP5/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{
+                    <a href="https://drive.google.com/file/d/1gW9xMakbwzU1UEYGrlXWXfxb96E9walO/view" target="_blank" rel="noopener noreferrer" style={{
                         padding: '10px 20px',
                         background: 'var(--accent-color)',
                         color: 'var(--bg-color)',
