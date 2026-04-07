@@ -55,7 +55,7 @@ const EducationCard = () => {
                             gap: '6px'
                         }}>
                             <FiAward size={14} />
-                            CGPA: 8.5
+                            CGPA: 7.5
                         </span>
                     </div>
 
