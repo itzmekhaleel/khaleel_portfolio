@@ -12,12 +12,10 @@ const StackCard = () => {
     const marqueeIcons = [
         { Icon: FaJava, name: "Java" },
         { Icon: SiSpringboot, name: "Spring Boot" },
-        { Icon: SiApachekafka, name: "Kafka" },
         { Icon: FaReact, name: "ReactJS" },
         { Icon: SiMysql, name: "MySQL" },
         { Icon: FaPython, name: "Python" },
         { Icon: FaGitAlt, name: "Git" },
-        { Icon: SiMongodb, name: "MongoDB" },
     ];
 
     const skillCategories = [
@@ -40,13 +38,6 @@ const StackCard = () => {
             ]
         },
         {
-            title: "Messaging",
-            skills: [
-                { Icon: SiApachekafka, name: "Apache Kafka" },
-                { Icon: FaExchangeAlt, name: "Message Queuing" },
-            ]
-        },
-        {
             title: "Frontend",
             skills: [
                 { Icon: SiHtml5, name: "HTML" },
@@ -59,7 +50,6 @@ const StackCard = () => {
             title: "Databases",
             skills: [
                 { Icon: SiMysql, name: "MySQL" },
-                { Icon: SiMongodb, name: "MongoDB" },
                 { Icon: FiDatabase, name: "H2 (SQL)" },
             ]
         },
@@ -80,8 +70,6 @@ const StackCard = () => {
                 { Icon: FiLayers, name: "OOPs" },
                 { Icon: FiCpu, name: "DSA" },
                 { Icon: FiDatabase, name: "DBMS" },
-                { Icon: FiLayers, name: "Microservices" },
-                { Icon: FaExchangeAlt, name: "Event-Driven" },
             ]
         }
     ];
