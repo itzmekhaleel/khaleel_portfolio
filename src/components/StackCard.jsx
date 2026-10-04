@@ -50,7 +50,6 @@ const StackCard = () => {
             title: "Databases",
             skills: [
                 { Icon: SiMysql, name: "MySQL" },
-                { Icon: FiDatabase, name: "H2 (SQL)" },
             ]
         },
         {
@@ -68,7 +67,7 @@ const StackCard = () => {
             title: "Concepts",
             skills: [
                 { Icon: FiLayers, name: "OOPs" },
-                { Icon: FiCpu, name: "DSA" },
+                { Icon: FiCpu, name: "Data Structures and Algorithms" },
                 { Icon: FiDatabase, name: "DBMS" },
             ]
         }
